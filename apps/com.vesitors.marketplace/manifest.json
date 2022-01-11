@@ -2,5 +2,6 @@
     "name" : "Vesitors Marketplace",
     "href" : "https://vesitors.com/marketplace" ,
     "desc" : "Vesitors NFT Marketplace",
+    "category": "marketplaces",
     "tags" : ["Vesitors", "Marketplace", "NFT", "NFTS", "VIP-181"]
 }

@@ -2,5 +2,6 @@
     "name" : "ZumoSwap",
     "href" : "https://app.zumoswap.com" ,
     "desc" : "Fast token swap service built for VeChain",
+    "category": "defi",
     "tags" : ["tool", "tokens", "VIP-180"]
 }
