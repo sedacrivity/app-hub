@@ -26,7 +26,11 @@ Recommended workflow:
 - Make the pull request
 
 Ref: 
-[Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)/ [Clone a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository)/ [Creating a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch)/ [Tutorial: How to make your first pull request on Github by *Thanoshan MV*](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
+- [Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+- [Clone a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository)
+- [Creating a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch)
+- [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+- [Tutorial: How to make your first pull request on Github by *Thanoshan MV*](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
 ### Create a directory
 Once the AppHub is forked, create a new directory in the `apps` directory with unique id and include a `manifest.json` file and `logo.png` file. To create a unique id, you can append the name of the application to the reversed domain such as  `com.example.your-app-name`.  Your app directory structure should be look like this
 
@@ -60,9 +64,9 @@ Create a `manifest.json` file includes app details.
 - `href` is **required**, and must be a fully-qualified URL.
 - `desc` is **required**.
 - `category` is **required**, and must be one of the provided category.
-- `tags` is **required**, should be an array if provided.
+- `tags` is **required**, should be ***an array*** if provided.
 - `repo` is *optional*, and must be a fully-qualified URL.
-- `contracts` is *optional*, should be an array and lower cases if provided
+- `contracts` is *optional*, should be ***an array*** and ***lower cases*** if provided
 - No fields should be left blank.
 
 ### Categories
@@ -78,7 +82,6 @@ Create a `manifest.json` file includes app details.
 Import your app logo into the directory and named it `logo`.
 
 - Must be a `.png`
-- Must be a square
 - Must be `512px by 512px`
 - Must **not** be a copy of another company's or application's logo
 
